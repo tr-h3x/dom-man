@@ -6,10 +6,7 @@ content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
 
-////
-
 const p = document.createElement('p'); 
-//p.classList.add('para');
 p.style.color = 'red';
 p.textContent = "Hey, I'm red!";
 
@@ -21,14 +18,9 @@ blueH3.textContent = "I'm a blue h3!"
 
 container.appendChild(blueH3);
 
-///new div step 3
-
 const div = document.createElement('div');
 div.setAttribute('style', 'color: blue; background: pink; border: black;');
 div.style.border = "thick solid black";
-//div.textContent = "attempt 1";
-
-//container.appendChild(div);
 
 const divH1 = document.createElement('h1');
 divH1.style.color = 'blue';
@@ -43,5 +35,3 @@ p1.textContent = "Me, too!";
 div.appendChild(p1);
 
 container.appendChild(div);
-
-//link for exercise https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
