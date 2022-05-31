@@ -10,6 +10,7 @@ container.appendChild(content);
 
 const p = document.createElement('p'); 
 //p.classList.add('para');
-p.textContent = 'This is the glorious p!';
+p.style.color = 'red';
+p.textContent = "Hey, I'm red!";
 
 container.appendChild(p);
